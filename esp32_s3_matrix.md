@@ -4,7 +4,7 @@ title: ESP32-S3 Matrix (Waveshare)
 permalink: esp32_s3_matrix
 ---
 
-> This is an ESP32-S3 Dev. Board with assembled <b>8 x 8 WS2812 LED Matrix</b> Board and <b>QMI8656 6-axis sensor</b> (3-axis accelerometer and 3-axis gyroscope)
+> This is an ESP32-S3 Dev. Board with assembled <b>8 x 8 WS2812 LED Matrix</b> Board and <b>QMI8656 6-axis sensor</b> (3-axis accelerometer, 3-axis gyroscope and temperature)
 
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_matrix_pinout_800w.png">
 
