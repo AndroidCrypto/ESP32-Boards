@@ -11,7 +11,7 @@ permalink: esp32_s3_matrix
 
 ## Documentation
 
-Official documentation: https://www.waveshare.com/wiki/ESP32-S3-Matrix
+Official documentation: https://www.waveshare.com/wiki/ESP32-S3-Matrix [Schematic](/assets/img/pinout/esp32_s3_matrix_schematic.pdf)
 
 ## Development board profile
 
