@@ -1,17 +1,17 @@
 # change the followings to match your Github username and repo name
-baseurl: "/tailpages" # the name of your github repo
-url: "https://harrywang.github.io" # the url of your github pages
+baseurl: "/ESP32-Boards" # the name of your github repo
+url: "https://androidcrypto.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
-title: "Tailpages: Tailwind + Github Pages"
-description: A Github Pages (Jekyll) template based on TailwindCSS
+title: "ESP32-Boards Overview"
+description: An overview about my ESP32-Family boards from a developers view
 
 # color theme for links
 theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
-author: Satoshi Nakamoto
-author-bio: Creator of Bitcoin  # change to false to hide
+author: AndroidCrypto (Michael Fehr)
+author-bio: Hobbyist
 author-image: 279.png  # file must be in the /assets/img/ folder
 
 # navigation menu
@@ -40,8 +40,9 @@ footer-msg: "Powered by Tailpages"
 footer-msg-link: https://github.com/harrywang/tailpages
 
 # google analytics
-google-analytics: G-WCRC1TC2V5
+google-analytics: false
 
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+
