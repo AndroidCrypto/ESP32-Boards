@@ -6,11 +6,11 @@ permalink: esp32_st7789_1_9_inches
 
 > This is an ESP32 Dev. Board with assembled <b>ST7789 1.9-inches</b> TFT display with <b>SPI</b> interface and a resolution of <b>170 x 320 pixels</b> (no touch)
 
-NOT CORRECT <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_matrix_pinout_800w.png">
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_st7789_1_9_inches_pinout_594w.png">
 
 ## Documentation
 
-There is no documentation available for this board. I saw it is often advertised as part of the ESP32 Cheap Yellow Display (CYD) family, but has a total different breadboard pin layout.
+There is no documentation available for this board. I saw it is often advertised as part of the ESP32 Cheap Yellow Display (CYD) family, but has a total different breadboard pin layout. Fortunately, the display pins and settings are identical.
 
 ## Libraries
 
