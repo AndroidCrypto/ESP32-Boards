@@ -8,6 +8,11 @@ permalink: esp32_cyd_st7789_2_8_inches
 
 <font color="red">Please note that there are no breadboard pins that expose GPIO pins, instead there are 3 JST 1.25 connectors available.</font>
 
+## Variants of CYD devices
+
+- the first two versions are using a TFT display with driver chip ILI9341 and come with a Micro-USB connector (link to the description)
+- the third version (this descriptions) is using the display with attached ST7789 driver chip. These devices do have a Micro-USB and a USB-C connector.
+
 ### wrong <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_st7789_1_9_inches_pinout_594w.png">
 
 ## Documentation
@@ -26,6 +31,10 @@ I wrote some tutorials regarding this device:
 - [Create a colorful digital clock on an ESP32 Cheap Yellow Display (“CYD”)](https://medium.com/@androidcrypto/create-a-colorful-digital-clock-on-an-esp32-cheap-yellow-display-cyd-641db4642e47)
 - [Create an Internet Weather Station with 3 days Forecast on an ESP32 Cheap Yellow Display (“CYD”)](https://medium.com/@androidcrypto/create-an-internet-weather-station-with-3-days-forecast-on-an-esp32-cheap-yellow-display-cyd-15eb5c353b1d)
 - [How to use Touch and SD Card at the same time on an ESP32 Cheap Yellow Display (“CYD”)](https://medium.com/@androidcrypto/how-to-use-touch-and-sd-card-at-the-same-time-on-an-esp32-cheap-yellow-display-cyd-45fa55d01ffe)
+- [Play iconic Arcade Games like Pac-Man or Donkey Kong on ESP32 Cheap Yellow Display (“CYD”) [full guide]](https://medium.com/@androidcrypto/play-iconic-arcade-games-like-pac-man-or-donkey-kong-on-esp32-cheap-yellow-display-cyd-full-899321881f28)
+- [Create a digital clock in a Domino style on an ESP32 Cheap Yellow Display (“CYD”)](https://medium.com/@androidcrypto/create-a-digital-clock-in-a-domino-style-on-an-esp32-cheap-yellow-display-cyd-b9e9a784ac21)
+- [Playing Othello / Reversi on an ESP32 Cheap Yellow Display with Minimax intelligence for the AI opponent](https://medium.com/@androidcrypto/playing-othello-reversi-on-an-esp32-cheap-yellow-display-with-minimax-intelligence-for-the-ai-07394729e653)
+- 
 
 ## Libraries
 
@@ -53,7 +62,7 @@ The following libraries and version numbers are tested with this board:
 | Interfaces | 1x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
 | Onboard Power LED | NO |
 | Onboard GPIO LED | RGB LED, red: 4, green: 16, blue: 17 |
-| USB-Connection | USB-C, Controller: CH340 |
+| USB-Connection | USB-C and Micro-USB, Controller: CH340 |
 | Wi-Fi connector | PCB antenna |
 | Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
 | Bluetooth Classic | YES, 5.0 |
