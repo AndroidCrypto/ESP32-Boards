@@ -46,12 +46,13 @@ The following libraries and version numbers are tested with this board:
 | Pins available on solder pads | NO |
 | Pins available internally | 0 (BOOT button) and display (see below) |
 | Pins for ST7789 | BL: 21, MISO: n/c, MOSI: 13, SCLK: 14, CS: 15, DC: 2, RST -1, HSPI-port, 80 MHz |
-| Pins for Micro-SD-Card reader | BL: 21, MISO: n/c, MOSI: 13, SCLK: 14, CS: 15, DC: 2, RST -1, HSPI-port, 80 MHz |
-| Pins safe to use | 4, 5, 12, 16, 17, 18, 19, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 |
+| Pins for XPT2046 Touch Controller | MISO: 39, MOSI: 32, SCLK: 25, SS/CS: 33, IRQ: 36 |
+| Pins for Micro-SD-Card reader | MISO: 19, MOSI: 23, SCLK: 18, SS/CS: 5 |
+| Pins safe to use | 22,27 and 35 (input only) on CN1 |
 | Display | YES, ST7789 1.9-inches display, SPI interface, 170x320 pixels, no touch controller |
 | Interfaces | 1x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
 | Onboard Power LED | NO |
-| Onboard GPIO LED | RGB LED, red: , green: , blue:  |
+| Onboard GPIO LED | RGB LED, red: 4, green: 16, blue: 17 |
 | USB-Connection | USB-C, Controller: CH340 |
 | Wi-Fi connector | PCB antenna |
 | Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
@@ -65,8 +66,8 @@ The following libraries and version numbers are tested with this board:
 | Restart button | YES |
 | BOOT button | YES, GPIO 0 |
 | On-/Off Switch | NO |
-| SD card reader | NO |
-| Breadboard pins | 2 * 12 pins |
+| SD card reader | YES |
+| Breadboard pins | NO pins but some 1.25 JST connectors |
 | QWIIC connector | NO |
 | Internal temperature sensor | YES |
 | Low Dropout Voltage Regulator (LDO) | AMS1117 (1000 mA) |
