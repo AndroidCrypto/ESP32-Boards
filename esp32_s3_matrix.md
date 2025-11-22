@@ -11,7 +11,8 @@ permalink: esp32_s3_matrix
 
 ## Documentation
 
-Official documentation: https://www.waveshare.com/wiki/ESP32-S3-Matrix [Schematic](/assets/img/pinout/esp32_s3_matrix_schematic.pdf)
+- Official documentation: https://www.waveshare.com/wiki/ESP32-S3-Matrix 
+- [Schematic](/assets/img/pinout/esp32_s3_matrix_schematic.pdf)
 
 ## Development board profile
 
@@ -19,7 +20,7 @@ Official documentation: https://www.waveshare.com/wiki/ESP32-S3-Matrix [Schemati
 |----------------------------------------|--|
 | Processor: | ESP32-S3 (ESP32-S3FH4R2 SoC with dual-core Xtensa LX7), Flash 4 MB, No PSRAM |
 | CPU Frequencies | 160/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
-| Pins available on Breadboard | TX, RX, 1, 2, 3, 4, 5, 6, 7, 33, 34, 35, 36, 37, 38, 39, 40 (total 17), 3.3V, 5V, GND |
+| Pins available on Breadboard | TX (43), RX (44), 1, 2, 3, 4, 5, 6, 7, 33, 34, 35, 36, 37, 38, 39, 40 (total 17), 3.3V, 5V, GND |
 | Pins available on solder pads | GND, 5V, DOUT (WS2812 LED extension) |
 | Pins available internally | 0 (BOOT button), 14 (WS2812 LED |
 | Pins safe to use | 1, 2, 4, 5, 6, 7, 8, 15 (S), 16 (S), 17 (S), 18 (S), 21 (S)<br>(S) = soldered |
@@ -47,7 +48,7 @@ Official documentation: https://www.waveshare.com/wiki/ESP32-S3-Matrix [Schemati
 | Internal temperature sensor | YES |
 | Low Dropout Voltage Regulator (LDO) | ME6217 (800 mA) |
 | Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
-| Expansion board | :white_check_mark: Available, Feature: JT 2.0 Li-Ion Battery connector |
+| Expansion board | NO |
 | Arduino board selection | ESP32S3 Dev Module |
 
 
