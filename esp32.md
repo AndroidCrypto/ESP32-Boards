@@ -4,7 +4,7 @@ title: ESP32 Boards
 permalink: esp32
 ---
 
-> These are my ESP3 Development Boards
+> These are my ESP32 Development Boards
 
 ## Boards without Display
 
