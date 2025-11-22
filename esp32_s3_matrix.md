@@ -13,6 +13,8 @@ permalink: esp32_s3_matrix
 - Official documentation: [https://www.waveshare.com/wiki/ESP32-S3-Matrix](https://www.waveshare.com/wiki/ESP32-S3-Matrix) 
 - [Schematic](/assets/pdf/schematic/esp32_s3_matrix_schematic.pdf)
 
+<font color="red">Please note that the LED brightness should not be set too high, it will cause a rapid temperature increase, which can result in damage to the board.</font>
+
 ## Libraries
 
 The following libraries and version numbers are tested with this board:
@@ -29,8 +31,8 @@ The following libraries and version numbers are tested with this board:
 | CPU Frequencies | 160/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
 | Pins available on Breadboard | TX (43), RX (44), 1, 2, 3, 4, 5, 6, 7, 33, 34, 35, 36, 37, 38, 39, 40 (total 17), 3.3V, 5V, GND |
 | Pins available on solder pads | GND, 5V, DOUT (WS2812 LED extension) |
-| Pins available internally | 0 (BOOT button), 14 (WS2812 LED |
-| Pins safe to use | 1, 2, 4, 5, 6, 7, 8, 15 (S), 16 (S), 17 (S), 18 (S), 21 (S)<br>(S) = soldered |
+| Pins available internally | 0 (BOOT button), 14 (WS2812 LED) |
+| Pins safe to use | 1, 2, 4, 5, 6, 7, 33, 34, 35, 36, 37, 38, 39, 40 |
 | Display | NO |
 | Interfaces | 1x I2C, 1x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
 | Onboard Power LED | NO |
