@@ -24,8 +24,6 @@ nav-menu:
   permalink: esp32_s3
 - text: About
   permalink: about
-- text: Bitcoin
-  permalink: bitcoin
 - text: Blog
   permalink: blog
 
@@ -49,6 +47,7 @@ google-analytics: false
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+
 
 
 
