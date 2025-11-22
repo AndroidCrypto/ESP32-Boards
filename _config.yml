@@ -22,16 +22,16 @@ nav-menu:
   permalink: esp32
 - text: ESP32-S3
   permalink: esp32_s3
+- text: ESP32 Mini
+  permalink: esp32_mini  
 - text: About
   permalink: about
-- text: Blog
-  permalink: blog
 
 # use false to turn off any social media links
-twitter: https://twitter.com/
+twitter: false
 facebook: https://facebook.com/
 instagram: https://instagram.com/
-github: https://github.com/
+github: https://github.com/androidcrypto/
 linkedin: https://linkedin.com/
 medium: false
 google-scholar: false
@@ -47,6 +47,7 @@ google-analytics: false
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+
 
 
 
