@@ -8,7 +8,7 @@ permalink: esp32_cyd_st7789_2_8_inches
 
 <font color="red">Please note that there are no breadboard pins that expose GPIO pins, instead there are 3 JST 1.25 connectors available.</font>
 
-## Variants of CYD devices
+## Variants of 2.8-inches CYD devices
 
 - the first two versions are using a TFT display with driver chip ILI9341 and come with a Micro-USB connector (link to the description)
 - the third version (this descriptions) is using the display with attached ST7789 driver chip. These devices do have a Micro-USB and a USB-C connector.
