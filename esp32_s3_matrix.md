@@ -27,7 +27,7 @@ The following libraries and version numbers are tested with this board:
 
 | Position | Characteristics | 
 |----------------------------------------|--|
-| Processor: | ESP32-S3 (ESP32-S3FH4R2 SoC with dual-core Xtensa LX7), Flash 4 MB, No PSRAM |
+| Processor: | ESP32-S3 (ESP32-S3FH4R2 SoC with dual-core Xtensa LX7), Flash 4 MB, 2 MB PSRAM |
 | CPU Frequencies | 160/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
 | Pins available on Breadboard | TX (43), RX (44), 1, 2, 3, 4, 5, 6, 7, 33, 34, 35, 36, 37, 38, 39, 40 (total 17), 3.3V, 5V, GND |
 | Pins available on solder pads | GND, 5V, DOUT (WS2812 LED extension) |
@@ -57,6 +57,7 @@ The following libraries and version numbers are tested with this board:
 | QWIIC connector | NO |
 | Internal temperature sensor | YES |
 | Low Dropout Voltage Regulator (LDO) | ME6217 (800 mA) |
+| Breadboard pins distance (width) | 2,3 cm (1 pin row left on both sides on a breadboard) |
 | Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
 | Expansion board | NO |
 | Arduino board selection | ESP32S3 Dev Module |
