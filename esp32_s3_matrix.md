@@ -10,8 +10,8 @@ permalink: esp32_s3_matrix
 
 ## Documentation
 
-- Official documentation: https://www.waveshare.com/wiki/ESP32-S3-Matrix 
-- [Schematic](/assets/img/pinout/esp32_s3_matrix_schematic.pdf)
+- Official documentation: [https://www.waveshare.com/wiki/ESP32-S3-Matrix](https://www.waveshare.com/wiki/ESP32-S3-Matrix) 
+- [Schematic](/assets/pdf/schematic/esp32_s3_matrix_schematic.pdf)
 
 ## Libraries
 
@@ -39,9 +39,9 @@ The following libraries and version numbers are tested with this board:
 | QMI8656 6-axis sensor | Interface: **I2C**, **I2C_SDA: 11, I2C_SCL: 12** |
 | USB-Connection |USB-C, Controller: NO (emulated by SoC) |
 | Wi-Fi connector | ceramic antenna |
-| Wi-Fi | :white_check_mark:, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
-| Bluetooth Classic | :white_check_mark:, 5.0 |
-| Bluetooth Low Energy (BLE) | :white_check_mark:, Bluetooth 5.0 LE protocols |
+| Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
+| Bluetooth Classic | YES, 5.0 |
+| Bluetooth Low Energy (BLE) | YES, Bluetooth 5.0 LE protocols |
 | Battery connector | NO |
 | Battery loading | NO |
 | Battery voltage measure | NO |
