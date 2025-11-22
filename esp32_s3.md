@@ -8,7 +8,7 @@ permalink: esp32_s3
 
 ## Boards without Display
 
-- [ESP32-S3 Matrix (Waveshare)](esp32_s3_matrix.md) with assembled 8x8 WS2812 LED matrix
+- [ESP32-S3 Matrix (Waveshare)](esp32_s3_matrix.md) with assembled 8x8 WS2812 LED matrix and QMI8658 6-axis acceleration and gyroscope sensor
 
 ## Boards with Display
 
