@@ -4,7 +4,7 @@ title: ESP32-S3 Matrix (Waveshare)
 permalink: esp32_s3_matrix
 ---
 
-> This is an ESP32-S3 Dev. Board with assembled 8 x 8 WS2812 LED Matrix Board and QMI8656 6-axis sensor (3-axis accelerometer and 3-axis gyroscope)
+> This is an ESP32-S3 Dev. Board with assembled <b>8 x 8 WS2812 LED Matrix</b> Board and <b>QMI8656 6-axis sensor</b> (3-axis accelerometer and 3-axis gyroscope)
 
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_matrix_pinout_800w.png">
 
@@ -17,9 +17,9 @@ permalink: esp32_s3_matrix
 
 The following libraries and version numbers are tested with this board:
 
-- **Adafruit NEO Pixel** by Adafruit, version 1.15.2, https://github.com/adafruit/Adafruit_NeoPixel
-- **Adafruit NEO Matrix** by Adafruit, version 1.3.3, https://github.com/adafruit/Adafruit_NeoMatrix
-- **SensorLib** by Lewis He, version 0.2.1 , https://github.com/lewisxhe/SensorLib
+- **Adafruit NEO Pixel** by Adafruit, version 1.15.2, [https://github.com/adafruit/Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel)
+- **Adafruit NEO Matrix** by Adafruit, version 1.3.3, [https://github.com/adafruit/Adafruit_NeoMatrix](https://github.com/adafruit/Adafruit_NeoMatrix)
+- **SensorLib** by Lewis He, version 0.2.1 , [https://github.com/lewisxhe/SensorLib](https://github.com/lewisxhe/SensorLib)
 
 ## Development board profile
 
