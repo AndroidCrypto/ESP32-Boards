@@ -4,15 +4,22 @@ title: ESP32-S3 Matrix (Waveshare)
 permalink: esp32_s3_matrix
 ---
 
-> This is an ESP32-S3 Dev. Board with assembled 8 x 8 WS2812 LED Matrix Board
+> This is an ESP32-S3 Dev. Board with assembled 8 x 8 WS2812 LED Matrix Board and QMI8656 6-axis sensor (3-axis accelerometer and 3-axis gyroscope)
 
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_matrix_pinout_800w.png">
-
 
 ## Documentation
 
 - Official documentation: https://www.waveshare.com/wiki/ESP32-S3-Matrix 
 - [Schematic](/assets/img/pinout/esp32_s3_matrix_schematic.pdf)
+
+## Libraries
+
+The following libraries and version numbers are tested with this board:
+
+- **Adafruit NEO Pixel** by Adafruit, version 1.15.2, https://github.com/adafruit/Adafruit_NeoPixel
+- **Adafruit NEO Matrix** by Adafruit, version 1.3.3, https://github.com/adafruit/Adafruit_NeoMatrix
+- **SensorLib** by Lewis He, version 0.2.1 , https://github.com/lewisxhe/SensorLib
 
 ## Development board profile
 
@@ -28,7 +35,8 @@ permalink: esp32_s3_matrix
 | Interfaces | 1x I2C, 1x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
 | Onboard Power LED | NO |
 | Onboard GPIO LED | NO |
-| Onboard GPIO LED-Bead 8x8 LEDs | YES, Color: RGB WS2812, GPIO: 14 |
+| Onboard GPIO LED-Bead 8x8 LEDs | YES, Color: RGB WS2812, **GPIO: 14** |
+| QMI8656 6-axis sensor | Interface: **I2C**, **I2C_SDA: 11, I2C_SCL: 12** |
 | USB-Connection |USB-C, Controller: NO (emulated by SoC) |
 | Wi-Fi connector | ceramic antenna |
 | Wi-Fi | :white_check_mark:, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
