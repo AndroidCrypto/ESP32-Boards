@@ -4,7 +4,7 @@ title: ESP32 CYD ST7789 2.8-inches resistive touch display
 permalink: esp32_cyd_st7789_2_8_inches
 ---
 
-> This is an ESP32 Dev. Board with assembled <b>ST7789 2.8-inches</b> TFT display with <b>SPI</b> interface that has a resolution of <b>240 x 320 pixels</b> and resistive touch surface. It is known as <b>Cheap Yellow Display ("CYD")</b> and comes in several variants. Additionally, a Micro-SD-Card reader and a (true) RGB LED is on the backside of the device. There is an LDR Light sensor assembled on the front side, but a lot of people marked them as not working or useless (I did not verify this).
+> This is an ESP32 Dev. Board with assembled <b>ST7789 2.8-inches</b> TFT display with <b>SPI</b> interface that has a resolution of <b>240 x 320 pixels</b> and <b>resistive touch surface (driver chip XPT2046)</b>. It is known as <b>Cheap Yellow Display ("CYD")</b> and comes in several variants. Additionally, a Micro-SD-Card reader and a (true) RGB LED is on the backside of the device. There is an LDR Light sensor assembled on the front side, but a lot of people marked them as not working or useless (I did not verify this).
 
 <font color="red">Please note that there are no breadboard pins that expose GPIO pins, instead there are 3 JST 1.25 connectors available.</font>
 
