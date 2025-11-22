@@ -4,13 +4,28 @@ title: ESP32 CYD ST7789 2.8-inches resistive touch display
 permalink: esp32_cyd_st7789_2_8_inches
 ---
 
-> This is an ESP32 Dev. Board with assembled <b>ST7789 2.8-inches</b> TFT display with <b>SPI</b> interface and a resolution of <b>240 x 320 pixels</b> and resistive touch surface. It is known as <b>Cheap Yellow Display ("CYD")</b> and comes in several variants.
+> This is an ESP32 Dev. Board with assembled <b>ST7789 2.8-inches</b> TFT display with <b>SPI</b> interface that has a resolution of <b>240 x 320 pixels</b> and resistive touch surface. It is known as <b>Cheap Yellow Display ("CYD")</b> and comes in several variants. Additionally, a Micro-SD-Card reader and a (true) RGB LED is on the backside of the device. There is an LDR Light sensor assembled on the front side, but a lot of people marked them as not working or useless (I did not verify this).
+
+<font color="red">Please note that there are no breadboard pins that expose GPIO pins, instead there are 3 JST 1.25 connectors available.</font>
 
 ### wrong <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_st7789_1_9_inches_pinout_594w.png">
 
 ## Documentation
 
-This board is well documentated by third party persons.
+This board is well documentated by the manufacturer and third party persons:
+
+- Developer website: this specific device has the “device number” “ESP32–2432S028R”, that was developed by a Chinese company. Their website is difficult to find, here is a link to the [folder (containing all models)](http://pan.jczn1688.com/1/ESP32%20module) and the [specific product file](http://pan.jczn1688.com/directlink/1/ESP32%20module/2.8inch_ESP32-2432S028R.rar). You will download a file of about 900 MB size!
+- Probably the best website about the CYD is from a hobbyist, “witnessmenow” (Brian Lough), who maintains the GitHub repository “[ESP32-Cheap-Yellow-Display](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display)” with a lot of FAQs and troubleshooting around CYD
+- Another source for examples is “[https://github.com/bitbank2/CYD_Projects](https://github.com/bitbank2/CYD_Projects)”
+- Sara and Rui Santos have a phantastic website around ESP32 topics, and they give a lot of information and examples, e.g. “[Getting Started with ESP32 Cheap Yellow Display Board — CYD (ESP32–2432S028R)](https://randomnerdtutorials.com/cheap-yellow-display-esp32-2432s028r/)” and “[ESP32 Cheap Yellow Display (CYD) Pinout (ESP32–2432S028R](https://randomnerdtutorials.com/esp32-cheap-yellow-display-cyd-pinout-esp32-2432s028r/))”. Use their search for more tutorials on this device.
+
+## Own tutorials
+
+I wrote some tutorials regarding this device:
+
+- [Create a colorful digital clock on an ESP32 Cheap Yellow Display (“CYD”)](https://medium.com/@androidcrypto/create-a-colorful-digital-clock-on-an-esp32-cheap-yellow-display-cyd-641db4642e47)
+- [Create an Internet Weather Station with 3 days Forecast on an ESP32 Cheap Yellow Display (“CYD”)](https://medium.com/@androidcrypto/create-an-internet-weather-station-with-3-days-forecast-on-an-esp32-cheap-yellow-display-cyd-15eb5c353b1d)
+- [How to use Touch and SD Card at the same time on an ESP32 Cheap Yellow Display (“CYD”)](https://medium.com/@androidcrypto/how-to-use-touch-and-sd-card-at-the-same-time-on-an-esp32-cheap-yellow-display-cyd-45fa55d01ffe)
 
 ## Libraries
 
@@ -31,6 +46,7 @@ The following libraries and version numbers are tested with this board:
 | Pins available on solder pads | NO |
 | Pins available internally | 0 (BOOT button) and display (see below) |
 | Pins for ST7789 | BL: 21, MISO: n/c, MOSI: 13, SCLK: 14, CS: 15, DC: 2, RST -1, HSPI-port, 80 MHz |
+| Pins for Micro-SD-Card reader | BL: 21, MISO: n/c, MOSI: 13, SCLK: 14, CS: 15, DC: 2, RST -1, HSPI-port, 80 MHz |
 | Pins safe to use | 4, 5, 12, 16, 17, 18, 19, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 |
 | Display | YES, ST7789 1.9-inches display, SPI interface, 170x320 pixels, no touch controller |
 | Interfaces | 1x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
