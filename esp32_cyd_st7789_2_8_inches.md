@@ -23,6 +23,7 @@ This board is well documentated by the manufacturer and third party persons:
 - Probably the best website about the CYD is from a hobbyist, “witnessmenow” (Brian Lough), who maintains the GitHub repository “[ESP32-Cheap-Yellow-Display](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display)” with a lot of FAQs and troubleshooting around CYD
 - Another source for examples is “[https://github.com/bitbank2/CYD_Projects](https://github.com/bitbank2/CYD_Projects)”
 - Sara and Rui Santos have a phantastic website around ESP32 topics, and they give a lot of information and examples, e.g. “[Getting Started with ESP32 Cheap Yellow Display Board — CYD (ESP32–2432S028R)](https://randomnerdtutorials.com/cheap-yellow-display-esp32-2432s028r/)” and “[ESP32 Cheap Yellow Display (CYD) Pinout (ESP32–2432S028R](https://randomnerdtutorials.com/esp32-cheap-yellow-display-cyd-pinout-esp32-2432s028r/))”. Use their search for more tutorials on this device.
+- [Freenove ESP32 tutorial](https://freenove.com/fnk0103) (19 different tutorials tested on ESP32 CYD)
 
 ## Own tutorials
 
