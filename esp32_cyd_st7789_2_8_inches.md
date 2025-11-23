@@ -13,7 +13,7 @@ permalink: esp32_cyd_st7789_2_8_inches
 - the first two versions are using a TFT display with driver chip ILI9341 and come with a Micro-USB connector (link to the description)
 - the third version (this descriptions) is using the display with attached ST7789 driver chip. These devices do have a Micro-USB and a USB-C connector.
 
-### wrong <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_st7789_1_9_inches_pinout_594w.png">
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_cyd_pin_mapping_overview.png">
 
 ## Documentation
 
@@ -85,3 +85,6 @@ The following libraries and version numbers are tested with this board:
 | Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
 | Expansion board | NO |
 | Arduino board selection | ESP32 Dev Module |
+
+### ESP32 CYD back side pins
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_cyd_back_pins.png">
