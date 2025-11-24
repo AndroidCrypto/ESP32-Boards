@@ -24,11 +24,11 @@ n/a
 | CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
 | Pins available on Breadboard | 0, 4, 5, 12, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 (total 20), 3.3V, 5V, GND |
 | Pins available on solder pads | NO |
-| Pins available internally | 0 (BOOT button) and display (see below) |
-| Pins for ST7789 | BL:21, MISO: n/c, MOSI: 13, SCLK: 14, CS: 15, DC: 2, RST -1, HSPI-port, 80 MHz |
+| Pins available internally | 0 (BOOT button), 14 (second button) and display (see below) |
+| Pins for ST7789 | BL:38, ### MISO: n/c, MOSI: 13, SCLK: 14, CS: 15, DC: 2, RST -1, HSPI-port, 80 MHz |
 | Pins safe to use | 4, 5, 12, 16, 17, 18, 19, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 |
 | Display | YES, ST7789 1.9-inches display, SPI interface, 170x320 pixels, no touch controller |
-| Interfaces | 1x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
+| Interfaces | 2x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
 | Onboard Power LED | YES, blue |
 | Onboard GPIO LED | NO |
 | USB-Connection | USB-C, no controller |
@@ -36,9 +36,9 @@ n/a
 | Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
 | Bluetooth Classic | YES, 5.0 |
 | Bluetooth Low Energy (BLE) | YES, Bluetooth 5.0 LE protocols |
-| Battery connector | NO |
-| Battery loading | NO |
-| Battery voltage measure | NO |
+| Battery connector | YES JST 1.25 |
+| Battery loading | YES |
+| Battery voltage measure | YES |
 | Battery voltage measure control | NO |
 | Extern voltage control | NO |
 | Restart button | YES |
