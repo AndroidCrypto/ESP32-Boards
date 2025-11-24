@@ -8,7 +8,7 @@ permalink: esp32_s3_st7789_1_9_inches
 
 ## Documentation
 
-There is no documentation available for this board. I tried to get the schematic or pinout of the TFT display but no success. In the end, it is just an ESP32-S3 board without any chance to use the display.
+<b><font color="red">There is no documentation available for this board. I tried to get the schematic or pinout of the TFT display but no success. In the end, it is just an ESP32-S3 board without any chance to use the display.</font></b>
 
 ## Libraries
 
