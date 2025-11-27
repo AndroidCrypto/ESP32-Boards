@@ -21,6 +21,7 @@ This board is well documentated by the manufacturer and third party persons:
 - Sara and Rui Santos have a phantastic website around ESP32 topics, and they give a lot of information and examples, e.g. “[Getting Started with ESP32 Cheap Yellow Display Board — CYD (ESP32–2432S028R)](https://randomnerdtutorials.com/cheap-yellow-display-esp32-2432s028r/)” and “[ESP32 Cheap Yellow Display (CYD) Pinout (ESP32–2432S028R](https://randomnerdtutorials.com/esp32-cheap-yellow-display-cyd-pinout-esp32-2432s028r/))”. Use their search for more tutorials on this device.
 - [Freenove ESP32 tutorial](https://freenove.com/fnk0103) (19 different tutorials tested on ESP32 CYD)
 - [Hartmut Waller](https://hartmut-waller.info/arduinoblog/esp32-mit-28-zoll-tft/) A lot of examples for the display, RGB LED and SD-Card reader
+- Modifications to the original CYD (audio e.t.c): (ESP32_TFT_PIO)[https://github.com/hexeguitar/ESP32_TFT_PIO]
   
 ## Own tutorials
 
