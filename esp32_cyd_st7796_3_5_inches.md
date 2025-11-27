@@ -85,3 +85,7 @@ The following libraries and version numbers are tested with this board:
 
 ## ESP32 CYD back side pins
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_cyd_back_pins.png">
+
+## Schematic
+
+esp32_cyd_st7796_3_5_inches_schematic.pdf
