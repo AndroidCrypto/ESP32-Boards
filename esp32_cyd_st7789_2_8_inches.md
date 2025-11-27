@@ -60,7 +60,7 @@ The following libraries and version numbers are tested with this board:
 | Pins for XPT2046 Touch Controller | MISO: 39, MOSI: 32, SCLK: 25, SS/CS: 33, IRQ: 36 |
 | Pins for Micro-SD-Card reader | MISO: 19, MOSI: 23, SCLK: 18, SS/CS: 5 |
 | Pin for Light sensor | 34 |
-| Pin for Speaker amplifier | 26 (no direct usage |
+| Pin for Speaker amplifier | 26 (no direct usage) |
 | Pins safe to use | 22,27 and 35 (input only) on CN1 |
 | Display | YES, ST7789 1.9-inches display, SPI interface, 170x320 pixels, no touch controller |
 | Interfaces | 1x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
