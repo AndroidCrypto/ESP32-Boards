@@ -1,6 +1,6 @@
 # ESP32 CYD ST7796 3.5 inches display: Pins
 
-This page talks about the pins on the CYD.
+This page talks about the pins on the CYD. (Back to the device overview)[esp32_cyd_st7796_3_5_inches.md]
 
 ## Connector types
 
@@ -129,3 +129,5 @@ Pin names are predefined in SPI.h
 |Pin|Use|Note|
 |---|---|----|
 |IO34|||
+
+(Back to the device overview)[esp32_cyd_st7796_3_5_inches.md]
