@@ -22,6 +22,7 @@ This board is well documentated by the manufacturer and third party persons:
 - [Freenove ESP32 tutorial](https://freenove.com/fnk0103) (19 different tutorials tested on ESP32 CYD)
 - [Hartmut Waller](https://hartmut-waller.info/arduinoblog/esp32-mit-35-zoll-display-esp32-3248s035/) A lot of examples for the display, RGB LED and SD-Card reader
 - Modifications to the original CYD (audio e.t.c): (ESP32_TFT_PIO)[https://github.com/hexeguitar/ESP32_TFT_PIO]
+- (Macsbug ESP32-3248S035)[https://macsbug.wordpress.com/2022/10/02/esp32-3248s035/]: a lot technical stuff, very helpfull
   
 ## Own tutorials
 
