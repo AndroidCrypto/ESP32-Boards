@@ -10,6 +10,7 @@ This page talks about the pins on the CYD.
 |[**P3**](#p3)  |4P 1.25mm JST|GPIO       |
 |[**P4**](#p4)  |2P 1.25mm JST|Speaker    |
 |[**CN1**](#cn1)|4P 1.25mm JST|GPIO (I2C) |
+|[**Battery**](#battery)  |2P 1.25mm JST|Battery |
 
 ## What pins are available on the CYD?
 
@@ -19,7 +20,7 @@ There are 3 easily accessible GPIO pins
 |---|---|----|
 |IO35|**P3** JST connector|Input only pin, no internal pull-ups available|
 |IO22|**P3** and **CN1** JST connector||
-|IO27|**CN1** JST connector||
+|IO21|**CN1** JST connector||
 
 If you need more than that, you need to start taking them from something else. An SD Card sniffer like mentioned in the [Add-ons](/ADDONS.md) is probably the next easiest.
 
@@ -33,9 +34,9 @@ There are three 4P 1.25mm JST connectors on the board
 |Pin|Use|Note|
 |---|---|----|
 |GND|||
-|IO35||Input only pin, no internal pull-ups available|
-|IO22||Also on the **CN1** connector|
-|IO21||Used for the TFT Backlight, so not really usable|
+|IO35||Input only pin, no internal pull-ups available |
+|IO22||Also on the **CN1** connector |
+|IO21|| Also on the **CN1** connector |
 
 ### CN1
 This is a great candidate for I2C devices
@@ -43,26 +44,28 @@ This is a great candidate for I2C devices
 |Pin|Use|Note|
 |---|---|----|
 |GND|||
-|IO22||Also on **P3** connector|
-|IO27|||
+|IO22|| Also on **P3** connector |
+|IO21|| Also on **P3** connector |
 |3.3V|||
 
 ### P1
 |Pin|Use|Note|
 |---|---|----|
-|VIN|||
-|IO1(?)|TX|Maybe possible to use as a GPIO?|
-|IO3(?)|RX|Maybe possible to use as a GPIO?|
+|VIN| 5V ||
+|TX| IO1(?) | Maybe possible to use as a GPIO? |
+|RX | IO3(?)| Maybe possible to use as a GPIO? |
 |GND|||
 
 
 ## Buttons
 
-The CYD has two buttons, reset and boot.
+The CYD has three buttons, reset, boot and switch 1.
 
 |Pin|Use|Note|
 |---|---|----|
 |IO0|BOOT|Can be used as an input in sketches|
+
+The behavior of switch 1 is unknown.
 
 ## Speaker
 
@@ -71,6 +74,10 @@ The speaker connector is a 2P 1.25mm JST connector that is connected to the ampl
 |Pin|Use|Note|
 |---|---|----|
 |IO26|Connected to amp|`i2s_set_dac_mode(I2S_DAC_CHANNEL_LEFT_EN);`|
+
+## Battery
+
+The battery connector is a 2P 1.25mm JST connector that is connected to the LiIon load control.
 
 ## RGB LED
 
@@ -84,33 +91,6 @@ Note: LEDs are "active low", meaning HIGH == off, LOW == on
 |IO16|Green LED||
 |IO17|Blue LED||
 
-## SD Card
-Uses the VSPI
-Pin names are predefined in SPI.h
-
-|Pin|Use|Note|
-|---|---|----|
-|IO5|SS||
-|IO18|SCK||
-|IO19|MISO||
-|IO23|MOSI||
-
-## Touch Screen
-
-|Pin|Use|Note|
-|---|---|----|
-|IO25|XPT2046_CLK||
-|IO32|XPT2046_MOSI||
-|IO33|XPT2046_CS||
-|IO36|XPT2046_IRQ||
-|IO39|XPT2046_MISO||
-
-## LDR (Light Sensor)
-
-|Pin|Use|Note|
-|---|---|----|
-|IO34|||
-
 ## Display
 Uses the HSPI
 
@@ -121,17 +101,31 @@ Uses the HSPI
 |IO13|TFT_SDI|AKA: TFT_MOSI|
 |IO14|TFT_SCK||
 |IO15|TFT_CS||
-|IO21|TFT_BL|Also on P3 connector, for some reason|
+|IO27|TFT_BL||
 
-## Test points
-|Pad|Use|Note|
+## Touch Screen
+
+|Pin|Use|Note|
 |---|---|----|
-|S1|GND|near USB-SERIAL|
-|S2|3.3v|for ESP32|
-|S3|5v|near USB-SERIAL|
-|S4|GND|for ESP32|
-|S5|3.3v|for TFT|
-|JP0 (pad nearest USB socket)|5v|TFT LDO|
-|JP0|3.3v|TFT LDO|
-|JP3 (pad nearest USB socket)|5v|ESP32 LDO|
-|JP3|3.3v|ESP32 LDO|
+|IO14|XPT2046_CLK||
+|IO13|XPT2046_MOSI||
+|IO33|XPT2046_CS||
+|IO36|XPT2046_IRQ||
+|IO12|XPT2046_MISO||
+
+## SD Card
+Uses the VSPI
+Pin names are predefined in SPI.h
+
+|Pin|Use|Note|
+|---|---|----|
+|IO5|SS (CS)||
+|IO18|SCK||
+|IO19|MISO||
+|IO23|MOSI||
+
+## LDR (Light Sensor)
+
+|Pin|Use|Note|
+|---|---|----|
+|IO34|||
