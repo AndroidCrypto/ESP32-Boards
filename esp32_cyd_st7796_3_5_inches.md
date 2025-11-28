@@ -4,12 +4,14 @@ title: ESP32 CYD ST7796 3.5-inches resistive touch display
 permalink: esp32_cyd_st7796_3_5_inches
 ---
 
-> This is an ESP32 Dev. Board with assembled <b>ST7796 3.5-inches</b> TFT display with <b>SPI</b> interface that has a resolution of <b>320 x 480 pixels</b> and <b>resistive touch surface (driver chip XPT2046)</b>. It is known as <b>Cheap Yellow Display ("CYD")</b> and comes in several variants. Additionally, a Micro-SD-Card reader and a (true) RGB LED is on the backside of the device. There is an LDR Light sensor assembled on the front side, but a lot of people marked them as not working or useless (I did not verify this).
+> This is an ESP32 Dev. Board with assembled <b>ST7796 3.5-inches</b> TFT display with <b>SPI</b> interface that has a resolution of <b>320 x 480 pixels</b> and <b>resistive touch surface (driver chip XPT2046)</b>. It is known as <b>Cheap Yellow Display ("CYD")</b> and comes in several variants, this is <b>ESP32-3248S035</b>. Additionally, a Micro-SD-Card reader and a (true) RGB LED is on the backside of the device. There is an LDR Light sensor assembled on the front side, but a lot of people marked them as not working or useless (I did not verify this).
 
 <font color="red">Please note that there are no breadboard pins that expose GPIO pins, instead there are 3 JST 1.25 connectors available.</font>
 
 ## ESP32 CYD pin mapping overview
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_cyd_pin_mapping_overview.png">
+
+(Please find the pin mapping overview here)[esp32_cyd_st7796_3_5_inches_pins.md]
 
 ## Documentation
 
