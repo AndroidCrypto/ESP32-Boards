@@ -12,7 +12,7 @@ permalink: esp32_s3_t_display_s3_st7789_1_9_inches
 - [LilyGo GitHub repository](https://github.com/Xinyuan-LilyGO/T-Display-S3)
 
 ## ESP32-S3 T-Display S3 pin mapping overview
-<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_t_display_s3_pinout_600w.png">
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_t_display_s3_pinout_800w.png">
 
 ## Libraries
 
