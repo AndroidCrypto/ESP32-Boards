@@ -13,7 +13,7 @@ permalink: esp32_s3
 ## Boards with Display
 
 - [ESP32-S3 T-Display S3](esp32_s3_t_display_s3_st7789_1_9_inches.md) with assembled st7789 1.9-inches display and 8-Bit Parallel interface
-- 
+
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/boards/lilygo_esp32_s3_t_display_s3_front_back_600w.png">
 - ESP32-S3 ST7789 with assembled 1.9-inches display
 
