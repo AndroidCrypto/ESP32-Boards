@@ -49,8 +49,7 @@ The following libraries and version numbers are tested with this board:
 | On-/Off Switch | NO |
 | SD card reader | NO |
 | Breadboard pins | 2 * 12 pins |
-| QWIIC connector | NO |
-| External connector | YES JST 1.25 4P, GND, 3.3V, GPIOs 43 + 44 |
+| QWIIC connector | YES JST 1.00 4P, GND, 3.3V, GPIOs 43 + 44 |
 | Internal temperature sensor | YES |
 | Low Dropout Voltage Regulator (LDO) | LTH7 ( ??? mA) |
 | Breadboard pins distance (width) | 2,8 cm (1 pin on each side available on a breadboard) |
