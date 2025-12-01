@@ -4,6 +4,8 @@
 
 ## Documentation
 
+Arduino Heltec Boards: https://resource.heltec.cn/download/package_heltec_esp32_index.json (Version 3.0.3)
+
 Heltect shop: https://heltec.org/project/wireless-stick-v3/
 
 Heltec WiKi: https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-stick/
