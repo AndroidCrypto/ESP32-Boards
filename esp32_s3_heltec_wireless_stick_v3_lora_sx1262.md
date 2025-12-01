@@ -16,3 +16,4 @@ GitHub releases: https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases
 
 Inofficial: https://github.com/ropg/heltec_esp32_lora_v3
 
+Heltec library: https://github.com/HelTecAutomation/Heltec_ESP32 version 2.1.5
