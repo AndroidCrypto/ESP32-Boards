@@ -8,6 +8,8 @@ Heltect shop: https://heltec.org/project/wireless-stick-v3/
 
 Heltec WiKi: https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wireless-stick/
 
+Quick start: https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/esp32-quick-start?esp32=esp32
+
 GitHub: https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series
 
 GitHub releases: https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases
