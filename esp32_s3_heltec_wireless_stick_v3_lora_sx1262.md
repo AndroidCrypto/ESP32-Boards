@@ -20,7 +20,7 @@ permalink: esp32_s3_heltec_wireless_stick_v3_lora
 - [Heltec Rssources](https://resource.heltec.cn/download/): https://resource.heltec.cn/download/
 
 ## ESP32-S3 T-Display S3 pin mapping overview
-<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_t_display_s3_pinout_800w.png">
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/heltec_wireless_stick_v3_lora_pinout_600w.png">
 
 ## Libraries
 
@@ -68,22 +68,41 @@ The following libraries and version numbers are tested with this board:
 | Expansion board | NO |
 | Arduino board selection | ESP32-S3 Dev Module |
 
-### Display pin  profile
+### Display pin profile (I2C interface)
 
 | Position | GPIO | 
 |----------------------------------------|--|
-| BL | 38 |
-| Batt.Power | 15 |
-| D0 | 39 |
-| D1 | 40 |
-| D2 | 41 |
-| D3 | 42 |
-| D4 | 45 |
-| D5 | 46 |
-| D6 | 47 |
-| D7 | 48 |
-| WR | 08 |
-| RD | 09 |
-| DC | 07 |
-| CS | 06|
-| RES | 05 |
+| SDA | 18 |
+| SCL | 18 |
+| RST | 21 |
+
+### LoRa module pin profile (SPI interface)
+
+| Position | GPIO | 
+|----------------------------------------|--|
+| SS (CS) | 8 |
+| MOSI | 10 |
+| MISO | 11 |
+| SCK | 9 |
+| DIO1 | 14 |
+| RST_LoRa | 12 |
+| BUSY_LoRa | 13 |
+
+### LED pin profile
+
+| Position | GPIO | 
+|----------------------------------------|--|
+| LED | 35 |
+
+### Vext control
+
+| Position | GPIO | 
+|----------------------------------------|--|
+| Vext | 36 |
+
+### Battery control
+
+| Position | GPIO | 
+|----------------------------------------|--|
+| VBAT_CTRL | 37 |
+| VBAT_ADC| 1 |
