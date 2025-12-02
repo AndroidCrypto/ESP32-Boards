@@ -4,7 +4,7 @@ title: ESP32-S3 Heltec Wireless Stick V3 LoRa
 permalink: esp32_s3_heltec_wireless_stick_v3_lora
 ---
 
-> This is a Heltec ESP32-S3 Dev. Board with assembled <b>SX1262 LoRa module</b> and <b>0.49 1.9-inches</b> OLED display with <b>I2C</b> interface and a resolution of <b>64 x 32 pixels</b> (no touch).
+> This is a Heltec ESP32-S3 Dev. Board with assembled <b>SX1262 LoRa module</b> and <b>0.49-inches</b> OLED display with <b>I2C</b> interface and a resolution of <b>64 x 32 pixels</b> (no touch).
 
 
 ## Documentation
