@@ -2,7 +2,7 @@
 {ht_translation}`[简体中文]:[English]`
 
 ## V1
-- First release
+- First releasehttps://github.com/AndroidCrypto/ESP32-Boards/tree/main
 - 2017-6-1 public sale
 
 - [Pinout diagram of V1](http://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V1.pdf)
