@@ -17,4 +17,4 @@ permalink: esp32
 
 ## Special purpose boards
 
-- ESP32 Heltec WiFi LoRa 32 V2 with assembled 0.96-inches OLED and SX1276 LoRa module <font color="red">Please note that this board is outphased by Heltec but still usable for LoRa tasks.</font>
+- [ESP32 Heltec WiFi LoRa 32 V2 with assembled 0.96-inches OLED and SX1276 LoRa module](esp32_heltec_wifi_lora_32_v2_sx1276.md) <font color="red">Please note that this board is outphased by Heltec but still usable for LoRa tasks.</font>
