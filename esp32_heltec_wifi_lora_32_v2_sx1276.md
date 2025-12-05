@@ -140,13 +140,14 @@ The following libraries and version numbers are tested with this board:
 
 ### Vext control
 
-| Position | GPIO | 
-|----------------------------------------|--|
-| Vext | 21 (LOW-ON,HIGH-OFF) |
+| Position | GPIO | Comment | 
+|----------------------------------------|--|--|
+| Vext | 21 (LOW-ON,HIGH-OFF) | same as VBAT ctrl |
 
 ### Battery control
 
-| Position | GPIO | 
-|----------------------------------------|--|
-| VBAT_CTRL | 37 |
-| VBAT_ADC| 1 |
+| Position | GPIO | Comment | 
+|----------------------------------------|--|--|
+| VBAT_CTRL | 21 | same as Vext ctrl |
+| VBAT_ADC| 13 | Version 2 |
+| VBAT_ADC| 37 | Version 2.1 |
