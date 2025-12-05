@@ -41,6 +41,42 @@ The following libraries and version numbers are tested with this board:
 
 | Position | Characteristics | 
 |----------------------------------------|--|
+| Processor: | ESP32 module with dual-core Xtensa LX7 (ESP32-D0WD-V3 (revision v3.1)), Flash 4 MB, no PSRAM |
+| CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
+| Pins available on Breadboard | 0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 (total 26), RST, 3.3V 2*, 5V, 3.3V Vext 2*, GND 2* |
+| Pins available on solder pads | NO |
+| Pins available internally | 0 (BOOT button) and display (see below) |
+| Pins for ST7789 | BL:21, MISO: n/c, MOSI: 13, SCLK: 14, CS: 15, DC: 2, RST -1, HSPI-port, 80 MHz |
+| Pins safe to use | 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 22, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 |
+| Display | YES, ST7789 1.9-inches display, SPI interface, 170x320 pixels, no touch controller |
+| Interfaces | 1x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
+| Onboard Power LED | NO |
+| Onboard GPIO LED | NO |
+| USB-Connection | USB-C, Controller: CH340 |
+| Wi-Fi connector | PCB antenna |
+| Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
+| Bluetooth Classic | YES, 5.0 |
+| Bluetooth Low Energy (BLE) | YES, Bluetooth 5.0 LE protocols |
+| Battery connector | NO |
+| Battery loading | NO |
+| Battery voltage measure | NO |
+| Battery voltage measure control | NO |
+| Extern voltage control | NO |
+| Restart button | YES |
+| BOOT button | YES, GPIO 0 |
+| On-/Off Switch | NO |
+| SD card reader | NO |
+| Breadboard pins | 2 * 18 pins |
+| QWIIC connector | NO |
+| Internal temperature sensor | YES |
+| Low Dropout Voltage Regulator (LDO) | AMS1117 (1000 mA) |
+| Breadboard pins distance (width) | 3,0 cm (does not fit on one breadboard) |
+| Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
+| Expansion board | NO |
+| Arduino board selection | ESP32 Dev Module |
+
+| Position | Characteristics | 
+|----------------------------------------|--|
 | Processor: | ESP32-S3 processor with dual-core Xtensa LX7 (ESP32-S3FN8, Flash 8 MB, NO PSRAM |
 | CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
 | Pins available on Breadboard | 1, 2, 3, 10, 11, 12, 13, 16, 17, 18, 43, 44 (total 12), 3.3V, 5V, GND |
