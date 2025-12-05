@@ -68,7 +68,7 @@ The following libraries and version numbers are tested with this board:
 | Breadboard pins | 2 * 18 pins |
 | QWIIC connector | NO |
 | Internal temperature sensor | YES |
-| Low Dropout Voltage Regulator (LDO) | AMS1117 (1000 mA) |
+| Low Dropout Voltage Regulator (LDO) | CE6260 (500 mA) |
 | Breadboard pins distance (width) | 2,3 cm (1 pin on each side available on a breadboard) |
 | Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
 | Expansion board | NO |
