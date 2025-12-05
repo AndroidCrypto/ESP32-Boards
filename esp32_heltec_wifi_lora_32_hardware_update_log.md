@@ -13,7 +13,7 @@
 
 ## V2
 
-![](img/hardware_update_log/02.png)
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/boards/esp32_heltec_wifi_lora_32_v2_board.png">
 
 - 2018-9-15 public sale
 
@@ -45,7 +45,7 @@
 
 ## V2.1
 
-![](img/hardware_update_log/03.png)
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/boards/esp32_heltec_wifi_lora_32_v2_1_board.png">
 
 - 2019-6-15  public sale
 - Change the RF switch from PE4259 to UPG2179, and change the RF part to the official recommended value;
@@ -57,7 +57,7 @@
 
 ## V3
 
-![](img/hardware_update_log/07.png)
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/boards/esp32_heltec_wifi_lora_32_v3_board.png">
 
 - 2022-09-15  public sale
 
@@ -95,7 +95,7 @@ The new [Schematic Diagram](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/
   
 ## V4.0
 
-![](img/hardware_update_log/v4.png)
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/boards/esp32_heltec_wifi_lora_32_v4_board.png">
 
 - MCU: 
   - From ESP32-S3N8 to ESP32-S3R2
