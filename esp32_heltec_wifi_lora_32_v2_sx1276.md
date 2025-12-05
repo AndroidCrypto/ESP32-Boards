@@ -43,10 +43,10 @@ The following libraries and version numbers are tested with this board:
 |----------------------------------------|--|
 | Processor: | ESP32 module with dual-core Xtensa LX7 (ESP32-D0WD-V3 (revision v3.1)), Flash 4 MB, no PSRAM |
 | CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
-| Pins available on Breadboard | 0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 (total 26), RST, 3.3V 2*, 5V, 3.3V Vext 2*, GND 2* |
+| Pins available on Breadboard | 0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 37, 38, 39 (total 28), RST, 3.3V 2*, 5V, 3.3V Vext 2*, GND 2* |
 | Pins available on solder pads | NO |
-| Pins available internally | 0 (BOOT button) and display (see below) |
-| Pins for ST7789 | BL:21, MISO: n/c, MOSI: 13, SCLK: 14, CS: 15, DC: 2, RST -1, HSPI-port, 80 MHz |
+| Pins available internally | 0 (BOOT button), LoRa module and display (see below) |
+| Pins for OLED SSD1336 | I2C interface, SDA: 4, SCL: 15, RST: 16, 128x64 pixels |
 | Pins safe to use | 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 22, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 |
 | Display | YES, ST7789 1.9-inches display, SPI interface, 170x320 pixels, no touch controller |
 | Interfaces | 1x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
@@ -115,33 +115,34 @@ The following libraries and version numbers are tested with this board:
 
 | Position | GPIO | 
 |----------------------------------------|--|
-| SDA | 18 |
-| SCL | 18 |
-| RST | 21 |
+| SDA | 4 |
+| SCL | 15 |
+| RST | 16 |
 
 ### LoRa module pin profile (SPI interface)
 
 | Position | GPIO | 
 |----------------------------------------|--|
-| SS (CS) | 8 |
-| MOSI | 10 |
-| MISO | 11 |
-| SCK | 9 |
-| DIO1 | 14 |
-| RST_LoRa | 12 |
-| BUSY_LoRa | 13 |
+| SS (CS) | 18 |
+| MOSI | 27 |
+| MISO | 19 |
+| SCK | 5 |
+| DIO0 | 26 |
+| DIO1 | 5 |
+| DIO1 | 34 |
+| RST_LoRa | 14 |
 
 ### LED pin profile
 
 | Position | GPIO | 
 |----------------------------------------|--|
-| LED | 35 |
+| LED | 25 |
 
 ### Vext control
 
 | Position | GPIO | 
 |----------------------------------------|--|
-| Vext | 36 |
+| Vext | 21 (LOW-ON,HIGH-OFF) |
 
 ### Battery control
 
