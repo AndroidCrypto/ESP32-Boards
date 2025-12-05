@@ -24,7 +24,7 @@ The following libraries and version numbers are tested with this board:
 | Position | Characteristics | 
 |----------------------------------------|--|
 | Processor: | ESP32 module with dual-core Xtensa LX7 (ESP32-D0WD-V3 (revision v3.1)), Flash 4 MB, no PSRAM |
-| CPU Frequencies | 160/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
+| CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
 | Pins available on Breadboard | 0, 4, 5, 12, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 (total 20), 3.3V, 5V, GND |
 | Pins available on solder pads | NO |
 | Pins available internally | 0 (BOOT button) and display (see below) |
