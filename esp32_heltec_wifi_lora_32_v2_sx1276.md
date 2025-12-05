@@ -17,6 +17,7 @@ permalink: esp32_heltec_wifi_lora_32_v2_sx1276
 - [GitHub releases](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases): https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases
 - [Heltec library](https://github.com/HelTecAutomation/Heltec_ESP32): https://github.com/HelTecAutomation/Heltec_ESP32 version 2.1.5
 - [Heltec Resources](https://resource.heltec.cn/download/WiFi_LoRa_32/V2): https://resource.heltec.cn/download/WiFi_LoRa_32/V2
+- [Heltec Community](http://community.heltec.cn/): http://community.heltec.cn/
 
 ## ESP32 Heltec WiFi LoRa 32 V2 pin mapping and schematic
 
@@ -36,6 +37,8 @@ As there is a V2 and V2.1 variant, all data is available for both variants:
 
 The following libraries and version numbers are tested with this board:
 
+- OLED: [esp8266-oled-ssd1306](https://github.com/ThingPulse/esp8266-oled-ssd1306) by ThingPulse version 4.6.1: https://github.com/ThingPulse/esp8266-oled-ssd1306
+- LoRa: [SX12XX-LoRa](https://github.com/StuartsProjects/SX12XX-LoRa) by Stuart Projects version Oct 24, 2024: https://github.com/StuartsProjects/SX12XX-LoRa
 
 ## Development board profile
 
@@ -46,13 +49,13 @@ The following libraries and version numbers are tested with this board:
 | Pins available on Breadboard | 0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 37, 38, 39 (total 28), RST, 3.3V 2*, 5V, 3.3V Vext 2*, GND 2* |
 | Pins available on solder pads | NO |
 | Pins available internally | 0 (BOOT button), LoRa module and display (see below) |
-| Pins safe to use | 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 22, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 |
+| Pins safe to use | ??? 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 22, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 |
 | Display | YES, SSD1336 0.96-inches display, I2C interface, 128x64 pixels, no touch controller |
 | Interfaces | 2x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
 | Onboard Power LED | YES (battery load control) |
 | Onboard GPIO LED | YES |
 | USB-Connection | Micro-USB, Controller: CP2102 |
-| Wi-Fi connector | PCB antenna |
+| Wi-Fi connector | Spiral antenna |
 | Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
 | Bluetooth Classic | YES, 5.0 |
 | Bluetooth Low Energy (BLE) | YES, Bluetooth 5.0 LE protocols |
