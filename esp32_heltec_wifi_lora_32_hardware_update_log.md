@@ -1,9 +1,9 @@
 # Hardware Update Logs
-{ht_translation}`[简体中文]:[English]`
+
+ESP32 Heltec Wi-Fi LoRa 32 Development Board
 
 ## V1
-- First releasehttps://github.com/AndroidCrypto/ESP32-Boards/tree/main
-- 2017-6-1 public sale
+- First release 2017-6-1 public sale
 
 - [Pinout diagram of V1](http://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V1.pdf)
 
