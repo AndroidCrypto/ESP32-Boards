@@ -55,7 +55,7 @@ The following libraries and version numbers are tested with this board:
 | QWIIC connector | YES JST 1.00 4P, GND, 3.3V, GPIOs 43 + 44 |
 | Internal temperature sensor | YES |
 | Low Dropout Voltage Regulator (LDO) | LTH7 ( ??? mA) |
-| Breadboard pins distance (width) | 2,8 cm (1 pin on each side available on a breadboard) |
+| Breadboard pins distance (width) | 2,3 cm (1 pin on each side available on a breadboard) |
 | Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
 | Expansion board | NO |
 | Arduino board selection | ESP32-S3 Dev Module |
