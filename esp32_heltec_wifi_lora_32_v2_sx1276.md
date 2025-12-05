@@ -19,8 +19,18 @@ permalink: esp32_heltec_wifi_lora_32_v2_sx1276
 - [Heltec Resources](https://resource.heltec.cn/download/WiFi_LoRa_32/V2): https://resource.heltec.cn/download/WiFi_LoRa_32/V2
 
 ## ESP32 Heltec WiFi LoRa 32 V2 pin mapping and schematic
-- <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/heltec_wireless_stick_v3_lora_pinout_600w.png">
-- [Schematic](/assets/pdf/schematic/esp32_heltec_wifi_lora_32_v2_868-915_schematic.pdf)
+
+As there is a V2 and V2.1 variant, all data is available for both variants:
+
+### ESP32 Heltec WiFi LoRa 32 V2 variant
+
+- <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_heltec_wifi_lora_32_v2_868-915_pinout_800w.png"> or as [PDF](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.pdf)
+- [Schematic V2](/assets/pdf/schematic/esp32_heltec_wifi_lora_32_v2_868-915_schematic.pdf)
+
+### ESP32 Heltec WiFi LoRa 32 V2.1 variant
+
+- <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_heltec_wifi_lora_32_v2_1_868-915_pinout_800w.png"> or as [PDF](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf)
+- [Schematic V2.1](/assets/pdf/schematic/esp32_heltec_wifi_lora_32_v2_1_868-915_schematic.pdf)
 
 ## Libraries
 
