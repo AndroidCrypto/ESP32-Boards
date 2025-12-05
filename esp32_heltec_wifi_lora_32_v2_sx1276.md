@@ -41,27 +41,26 @@ The following libraries and version numbers are tested with this board:
 
 | Position | Characteristics | 
 |----------------------------------------|--|
-| Processor: | ESP32 module with dual-core Xtensa LX7 (ESP32-D0WD-V3 (revision v3.1)), Flash 4 MB, no PSRAM |
+| Processor: | ESP32 module with dual-core Xtensa LX7 (ESP32-D0), Flash 4 MB, no PSRAM |
 | CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
 | Pins available on Breadboard | 0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33, input only: 34, 35, 36, 37, 38, 39 (total 28), RST, 3.3V 2*, 5V, 3.3V Vext 2*, GND 2* |
 | Pins available on solder pads | NO |
 | Pins available internally | 0 (BOOT button), LoRa module and display (see below) |
-| Pins for OLED SSD1336 | I2C interface, SDA: 4, SCL: 15, RST: 16, 128x64 pixels |
 | Pins safe to use | 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 22, 25, 26, 27, 32, 33, input only: 34, 35, 36, 39 |
-| Display | YES, ST7789 1.9-inches display, SPI interface, 170x320 pixels, no touch controller |
-| Interfaces | 1x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
-| Onboard Power LED | NO |
-| Onboard GPIO LED | NO |
-| USB-Connection | USB-C, Controller: CH340 |
+| Display | YES, SSD1336 0.96-inches display, I2C interface, 128x64 pixels, no touch controller |
+| Interfaces | 2x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
+| Onboard Power LED | YES (battery load control) |
+| Onboard GPIO LED | YES |
+| USB-Connection | Micro-USB, Controller: CP2102 |
 | Wi-Fi connector | PCB antenna |
 | Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
 | Bluetooth Classic | YES, 5.0 |
 | Bluetooth Low Energy (BLE) | YES, Bluetooth 5.0 LE protocols |
-| Battery connector | NO |
-| Battery loading | NO |
-| Battery voltage measure | NO |
-| Battery voltage measure control | NO |
-| Extern voltage control | NO |
+| Battery connector | YES |
+| Battery loading | YES |
+| Battery voltage measure | YES |
+| Battery voltage measure control | YES |
+| Extern voltage control | YES ("Vext") |
 | Restart button | YES |
 | BOOT button | YES, GPIO 0 |
 | On-/Off Switch | NO |
@@ -70,46 +69,10 @@ The following libraries and version numbers are tested with this board:
 | QWIIC connector | NO |
 | Internal temperature sensor | YES |
 | Low Dropout Voltage Regulator (LDO) | AMS1117 (1000 mA) |
-| Breadboard pins distance (width) | 3,0 cm (does not fit on one breadboard) |
+| Breadboard pins distance (width) | 2,3 cm (1 pin on each side available on a breadboard) |
 | Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
 | Expansion board | NO |
-| Arduino board selection | ESP32 Dev Module |
-
-| Position | Characteristics | 
-|----------------------------------------|--|
-| Processor: | ESP32-S3 processor with dual-core Xtensa LX7 (ESP32-S3FN8, Flash 8 MB, NO PSRAM |
-| CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
-| Pins available on Breadboard | 1, 2, 3, 10, 11, 12, 13, 16, 17, 18, 43, 44 (total 12), 3.3V, 5V, GND |
-| Pins available on solder pads | NO |
-| Pins available internally | 0 (BOOT button), 14 (second button) and display (see below) |
-| Pins for ??ST7789 | BL:38, powered by battery: set GPIO 15 to HIGH,  display pins see below, 80 MHz |
-| Pins safe to use | ??? |
-| Display | YES, ST7789 1.9-inches display, 8_Bit Parallel interface, 170x320 pixels, no touch controller |
-| Interfaces | ?? 2x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
-| Onboard Power LED | YES, white |
-| Onboard GPIO LED | YES, Orange |
-| USB-Connection | USB-C, CP2102 USB controller |
-| Wi-Fi connector | PCB antenna |
-| Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
-| Bluetooth Classic | YES, 5.0 |
-| Bluetooth Low Energy (BLE) | YES, Bluetooth 5.0 LE protocols |
-| Battery connector | YES JST 1.25 2P |
-| Battery loading | YES |
-| Battery voltage measure | YES GPIO 1 |
-| Battery voltage measure control | YES GPIO 37 |
-| Extern voltage control | YES GPIO 36 |
-| Restart button | YES |
-| BOOT button | YES, GPIO 0 |
-| On-/Off Switch | NO |
-| SD card reader | NO |
-| Breadboard pins | 2 * 17 pins |
-| QWIIC connector | NO |
-| Internal temperature sensor | YES |
-| Low Dropout Voltage Regulator (LDO) | LTH7 ( ??? 500 mA) |
-| Breadboard pins distance (width) | 2,8 cm (1 pin on each side available on a breadboard) |
-| Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
-| Expansion board | NO |
-| Arduino board selection | ESP32-S3 Dev Module |
+| Arduino board selection | Heltec WiFi LoRa 32 (V2) |
 
 ### Display pin profile (I2C interface)
 
