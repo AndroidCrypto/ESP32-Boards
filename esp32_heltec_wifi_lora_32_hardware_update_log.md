@@ -2,6 +2,8 @@
 
 ESP32 Heltec Wi-Fi LoRa 32 Development Board
 
+[Back to ESP32 Heltec Wi-Fi LoRa 32 Version 2](esp32_heltec_wifi_lora_32_v2_sx1276.md)
+
 ## V1
 - First release 2017-6-1 public sale
 
@@ -117,3 +119,5 @@ The new [Schematic Diagram](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/
   - The screen connection method has changed from welding to B2B interface, supporting free disassembly and assembly of the screen.
   - The pin process has changed from silver plating to gold plating, resulting in better conductivity and oxidation resistance.
   - There is a plastic screen stand as mechanical protection
+
+[Back to ESP32 Heltec Wi-Fi LoRa 32 Version 2](esp32_heltec_wifi_lora_32_v2_sx1276.md)
