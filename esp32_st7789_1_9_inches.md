@@ -6,6 +6,8 @@ permalink: esp32_st7789_1_9_inches
 
 > This is an ESP32 Dev. Board with assembled <b>ST7789 1.9-inches</b> TFT display with <b>SPI</b> interface and a resolution of <b>170 x 320 pixels</b> (no touch). Please note: <b>this is not the Cheap Yellow Display variant "ESP32-1732S019".</b>
 
+<img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_st7789_1_9_inches_pinout_549h.png">
+
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_st7789_1_9_inches_pinout_594w.png">
 
 ## Documentation
