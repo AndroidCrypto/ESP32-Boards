@@ -82,7 +82,7 @@ The following libraries and version numbers are tested with this board:
 | TFT_SCK | 38 |
 | TFT_RST | 40 |
 | TFT_BUSY | -1 |
-| TFT_BL | 17 |
+| TFT_BL | 7 |
 | SPI-Host | SPI3_HOST |
 | SPI-Frequency | 40000000 Hz |
 
