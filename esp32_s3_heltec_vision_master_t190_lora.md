@@ -45,8 +45,8 @@ The following libraries and version numbers are tested with this board:
 | Pins safe to use | ??? 12, [13 not on V2], 17, 18, 19, 22, 27, 32, 33, input only: 36, 39 |
 | Display | YES, ST7789 1.90-inches display, SPI interface, 170x320 pixels, no touch controller |
 | Interfaces | 2x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
-| Onboard Power LED | YES (battery load control) |
-| Onboard GPIO LED | YES |
+| Onboard Power LED | NO (battery load control) |
+| Onboard GPIO LED | NO |
 | USB-Connection | Micro-USB, Controller: CP2102 |
 | Wi-Fi connector | Spiral antenna |
 | Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
@@ -59,6 +59,7 @@ The following libraries and version numbers are tested with this board:
 | Extern voltage control | YES ("Vext") |
 | Restart button | YES |
 | BOOT button | YES, GPIO 0 |
+| USER button | YES, GPIO 21 |
 | On-/Off Switch | NO |
 | SD card reader | NO |
 | Breadboard pins | 2 * 12 pins |
