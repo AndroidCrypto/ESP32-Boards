@@ -23,19 +23,15 @@ permalink: esp32_s3_heltec_vision_master_lora_e190
 
 ## ESP32 Heltec Vision Master LoRa E190 pin mapping and schematic
 
-
+- <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_heltec_lora_vmt190_pinout_800w.png">
+- [Schematic](/assets/pdf/schematic/esp32_heltec_wifi_lora_32_v2_868-915_schematic.pdf)
 
 As there is a V2 and V2.1 variant, all data is available for both variants:
 
 ### ESP32 Heltec WiFi LoRa 32 V2 variant
 
 - <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_heltec_wifi_lora_32_v2_868-915_pinout_800w.png"> or as [PDF](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.pdf)
-- [Schematic V2](/assets/pdf/schematic/esp32_heltec_wifi_lora_32_v2_868-915_schematic.pdf)
-
-### ESP32 Heltec WiFi LoRa 32 V2.1 variant
-
-- <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_heltec_wifi_lora_32_v2_1_868-915_pinout_800w.png"> or as [PDF](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf)
-- [Schematic V2.1](/assets/pdf/schematic/esp32_heltec_wifi_lora_32_v2_1_868-915_schematic.pdf)
+- [Schematic V2](/assets/pdf/schematic/esp32_s3_heltec_lora_vm190_schematic.pdf)
 
 ## Libraries
 
@@ -48,13 +44,13 @@ The following libraries and version numbers are tested with this board:
 
 | Position | Characteristics | 
 |----------------------------------------|--|
-| Processor: | ESP32 module with dual-core Xtensa LX7 (ESP32-D0), Flash 4 MB, no PSRAM |
+| Processor: | ESP32-S3 module with dual-core Xtensa LX7 (ESP32-S3R8), Flash 16 MB, 8 MB PSRAM |
 | CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
 | Pins available on Breadboard | 0, 1, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 21, 22, 23, 25, 26, 32, 33, input only: 34, 35, 36, 37, 38, 39 (total 28), RST, 3.3V 2*, 5V, 3.3V Vext 2*, GND 2* |
 | Pins available on solder pads | NO |
 | Pins available internally | 0 (BOOT button), LoRa module and display (see below) |
 | Pins safe to use | ??? 12, [13 not on V2], 17, 18, 19, 22, 27, 32, 33, input only: 36, 39 |
-| Display | YES, SSD1336 0.96-inches display, I2C interface, 128x64 pixels, no touch controller |
+| Display | YES, ST7789 1.90-inches display, SPI interface, 170x320 pixels, no touch controller |
 | Interfaces | 2x I2C, 2x SPI, 2x UART, 11x GPI0 (PWM), 4x ADC |
 | Onboard Power LED | YES (battery load control) |
 | Onboard GPIO LED | YES |
@@ -81,26 +77,34 @@ The following libraries and version numbers are tested with this board:
 | Expansion board | NO |
 | Arduino board selection | Heltec WiFi LoRa 32 (V2) |
 
-### Display pin profile (I2C interface)
+### Display pin profile (SPI interface)
 
 | Position | GPIO | 
 |----------------------------------------|--|
-| SDA | 4 |
-| SCL | 15 |
-| RST | 16 |
+| TFT_CS | 39 |
+| TFT_DC | 47 |
+| TFT_MOSI | 48 |
+| TFT_MISO | 4 |
+| TFT_SCK | 38 |
+| TFT_RST | 40 |
+| TFT_BUSY | -1 |
+| TFT_BL | 17 |
+| SPI-Host | SPI3_HOST |
+| SPI-Frequency | 40000000 Hz |
 
 ### LoRa module pin profile (SPI interface)
 
 | Position | GPIO | 
 |----------------------------------------|--|
-| SS (CS) | 18 |
-| MOSI | 27 |
-| MISO | 19 |
-| SCK | 5 |
-| DIO0 | 26 |
-| DIO1 | 35 |
-| DIO1 | 34 |
-| RST_LoRa | 14 |
+| SS (CS) | 8 |
+| MOSI | 10 |
+| MISO | 11 |
+| SCK | 9 |
+| BUSY | 13 |
+| DIO0 |  |
+| DIO1 | 14 |
+| DIO2 |  |
+| RST | 12 |
 
 ### LED pin profile
 
@@ -112,14 +116,12 @@ The following libraries and version numbers are tested with this board:
 
 | Position | GPIO | Comment | 
 |----------------------------------------|--|--|
-| Vext | 21 (LOW-ON,HIGH-OFF) | same as VBAT ctrl |
+| Vext | 5 (LOW-ON,HIGH-OFF) | |
 
 ### Battery control
 
 | Position | GPIO | Comment | 
 |----------------------------------------|--|--|
-| VBAT_CTRL | 21 | same as Vext ctrl |
-| VBAT_ADC| 13 | Version 2 |
-| VBAT_ADC| 37 | Version 2.1 |
+| VBAT_CTRL | 46 | |
+| VBAT_ADC| 6 |  |
 
-# esp32_s3_heltec_vision_master_t190_lora
