@@ -26,13 +26,6 @@ permalink: esp32_s3_heltec_vision_master_lora_e190
 - <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_heltec_lora_vmt190_pinout_800w.png">
 - [Schematic](/assets/pdf/schematic/esp32_heltec_wifi_lora_32_v2_868-915_schematic.pdf)
 
-As there is a V2 and V2.1 variant, all data is available for both variants:
-
-### ESP32 Heltec WiFi LoRa 32 V2 variant
-
-- <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_heltec_wifi_lora_32_v2_868-915_pinout_800w.png"> or as [PDF](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.pdf)
-- [Schematic V2](/assets/pdf/schematic/esp32_s3_heltec_lora_vm190_schematic.pdf)
-
 ## Libraries
 
 The following libraries and version numbers are tested with this board:
@@ -59,7 +52,7 @@ The following libraries and version numbers are tested with this board:
 | Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
 | Bluetooth Classic | YES, 5.0 |
 | Bluetooth Low Energy (BLE) | YES, Bluetooth 5.0 LE protocols |
-| Battery connector | YES |
+| Battery connector | YES SH1.25 2 pol |
 | Battery loading | YES |
 | Battery voltage measure | YES |
 | Battery voltage measure control | YES |
@@ -68,8 +61,8 @@ The following libraries and version numbers are tested with this board:
 | BOOT button | YES, GPIO 0 |
 | On-/Off Switch | NO |
 | SD card reader | NO |
-| Breadboard pins | 2 * 18 pins |
-| QWIIC connector | NO |
+| Breadboard pins | 2 * 12 pins |
+| QWIIC connector | YES SH1.0 4 pol |
 | Internal temperature sensor | YES |
 | Low Dropout Voltage Regulator (LDO) | CE6260 (500 mA) |
 | Breadboard pins distance (width) | 2,3 cm (1 pin on each side available on a breadboard) |
