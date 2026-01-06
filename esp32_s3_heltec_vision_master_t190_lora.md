@@ -71,6 +71,8 @@ The following libraries and version numbers are tested with this board:
 | Expansion board | NO |
 | Arduino board selection | Heltec WiFi LoRa 32 (V2) |
 
+[Overview about PIN-Settings (Meshtastic)](https://github.com/meshtastic/firmware/blob/develop/variants/esp32s3/heltec_vision_master_t190/variant.h): https://github.com/meshtastic/firmware/blob/develop/variants/esp32s3/heltec_vision_master_t190/variant.h
+
 ### Display pin profile (SPI interface)
 
 | Position | GPIO | 
@@ -83,6 +85,7 @@ The following libraries and version numbers are tested with this board:
 | TFT_RST | 40 |
 | TFT_BUSY | -1 |
 | TFT_BL | 7 |
+| TFT_CTRL | 17 |
 | SPI-Host | SPI3_HOST |
 | SPI-Frequency | 40000000 Hz |
 
@@ -95,9 +98,9 @@ The following libraries and version numbers are tested with this board:
 | MISO | 11 |
 | SCK | 9 |
 | BUSY | 13 |
-| DIO0 |  |
+| DIO0 | n.c. |
 | DIO1 | 14 |
-| DIO2 |  |
+| DIO2 | 13 = BUSY |
 | RST | 12 |
 
 ### LED pin profile
