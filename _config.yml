@@ -23,7 +23,9 @@ nav-menu:
 - text: ESP32-S3
   permalink: esp32_s3
 - text: ESP32 Mini
-  permalink: esp32_mini  
+  permalink: esp32_mini
+- text: Other
+  permalink: other_boards    
 - text: About
   permalink: about
 
@@ -47,6 +49,7 @@ google-analytics: false
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+
 
 
 
