@@ -8,8 +8,6 @@ permalink: esp32_heltec_wifi_lora_32_v4_sx1262
 
 <b>Please note: as I'm located in Europe, the board needs to use the 868 MHz variant of the board !</b>
 
-<font color="red"><b>The following information is NOT CORRECT, as it is just a copy&paste of the V2 variant.</b></font>
-
 ## Documentation
 
 - [Heltec official manufacturer information](https://heltec.org/project/wifi-lora-32-v4/): https://heltec.org/project/wifi-lora-32-v4/
@@ -49,15 +47,17 @@ The following libraries and version numbers are tested with this board:
 | Onboard Power LED | YES (battery load control) |
 | Onboard GPIO LED | YES |
 | USB-Connection | USB-C, Controller: no |
-| Wi-Fi connector | Spiral antenna |
+| Wi-Fi connector | FPC antenna, alternative Ipex |
 | Wi-Fi | YES, 802.11 b/g/n (2.4 GHz), STA/AP/Mixed |
 | Bluetooth Classic | ??? YES, 5.0 |
 | Bluetooth Low Energy (BLE) | YES, Bluetooth 5.0 LE protocols |
-| Battery connector | YES |
+| LoRa antenna connector | Ipex |
+| Battery connector | YES SH 1.25 2-pol |
 | Battery loading | YES |
 | Battery voltage measure | YES |
 | Battery voltage measure control | YES |
 | Extern voltage control | YES ("Vext") |
+| Solar connector | YES SH 1.25 2-pol |
 | Restart button | YES |
 | BOOT button | YES, GPIO 0 |
 | On-/Off Switch | NO |
@@ -111,8 +111,7 @@ The following libraries and version numbers are tested with this board:
 | Position | GPIO | Comment | 
 |----------------------------------------|--|--|
 | VBAT_CTRL | 37 |  |
-| VBAT_ADC| 13 | Version 2 |
-| VBAT_ADC| 37 | Version 2.1 |
+| VBAT_ADC| 1 | |
 
 #### GNSS / GPS control
 | Position | GPIO | Comment | 
