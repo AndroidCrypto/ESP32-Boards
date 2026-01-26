@@ -22,7 +22,7 @@ permalink: esp32_s3
 ## Special purpose boards
 
 - ESP32 Heltec WiFi LoRa 32 V3 with assembled 0.96-inches OLED and SX1262 LoRa module
-- [ESP32 Heltec WiFi LoRa 32 V4](esp32_s3_heltec_wifi_lora_32_v4.md) with assembled 0.96-inches OLED and SX1262 LoRa module
+- [ESP32 Heltec WiFi LoRa 32 V4](esp32_s3_heltec_wifi_lora_32_v4_sx1262.md) with assembled 0.96-inches OLED and SX1262 LoRa module
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/boards/esp32_s3_heltec_wifi_lora_32_v4_board_front_694w.png">
 <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/boards/esp32_s3_heltec_wifi_lora_32_v4_board_back_710w.png">
 - ESP32-S3 Heltec Wireless Stick V3 LoRa SX1262 with assembled SX1262 LoRa module
