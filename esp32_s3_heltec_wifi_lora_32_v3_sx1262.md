@@ -23,7 +23,7 @@ permalink: esp32_s3_heltec_wifi_lora_32_v3_sx1262
 ## ESP32 Heltec WiFi LoRa 32 V3 pin mapping and schematic
 
 - <img class="mx-auto w-1" src="{{site.baseurl}}/assets/img/pinout/esp32_s3_heltec_wifi_lora_32_v3_2_pinout_800w.png">
-- [Schematic V3.2](/assets/pdf/esp32_s3_heltec_wifi_lora_32_v3_2_schematic.pdf) or [online V3.2](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/WiFi_LoRa_32_V3.2_Schematic_Diagram.pdf) or [online V3.1](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.1_Schematic_Diagram.pdf) or [online V3](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3_Schematic_Diagram.pdf)
+- [Schematic V3.2](/assets/pdf/schematic/esp32_s3_heltec_wifi_lora_32_v3_2_schematic.pdf) or [online V3.2](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/WiFi_LoRa_32_V3.2_Schematic_Diagram.pdf) or [online V3.1](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.1_Schematic_Diagram.pdf) or [online V3](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3_Schematic_Diagram.pdf)
 
 ## Libraries
 
