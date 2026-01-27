@@ -38,8 +38,8 @@ The following libraries and version numbers are tested with this board:
 |----------------------------------------|--|
 | Processor: | ESP32-S3FN8 (Xtensa®32-bit lx7 dual core processor), Flash 8 MB, NO PSRAM |
 | CPU Frequencies | 240/160/80 MHz (for WiFi), 40/20/10 MHz (no WiFi) |
-| Pins available on Breadboard | 0, 1, 2, 3, 4, 5, 6, 7, 19, 20, 21, 26, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48  (total 28), RST, 3.3V 2*, 5V, 3.3V Vext 2*, GND 2* |
-| Pins available on solder pads | 15, 16, 17, 18 |
+| Pins available on Breadboard | 0, 1, 2, 3, 4, 5, 6, 7, 19, 20, 21, 26, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,  (total 26), RST, 3.3V 2*, 5V, 3.3V Vext 2*, GND 2* |
+| Pins available on solder pads | NO |
 | Pins available internally | 0 (BOOT button), LoRa module and display (see below) |
 | Pins safe to use | ???  |
 | Display | YES, SSD1336 0.96-inches display, I2C interface, 128x64 pixels, no touch controller |
@@ -68,7 +68,7 @@ The following libraries and version numbers are tested with this board:
 | Breadboard pins distance (width) | ??? 2,3 cm (1 pin on each side available on a breadboard) |
 | Security features | Encryption hardware accelerators that support AES-128/256, hashing, RSA, HMAC, digital signatures, and secure startup |
 | Expansion board | NO |
-| Arduino board selection | Heltec WiFi LoRa 32 (V2) |
+| Arduino board selection | Heltec WiFi LoRa 32 (V3) |
 
 ### Display pin profile (I2C interface)
 
@@ -102,7 +102,7 @@ The following libraries and version numbers are tested with this board:
 
 | Position | GPIO | Comment | 
 |----------------------------------------|--|--|
-| Vext | 36 (LOW-ON,HIGH-OFF) | same as VBAT ctrl |
+| Vext | 36 (LOW-ON,HIGH-OFF) |  |
 
 ### Battery control
 
@@ -110,7 +110,3 @@ The following libraries and version numbers are tested with this board:
 |----------------------------------------|--|--|
 | VBAT_CTRL | 37 |  |
 | VBAT_ADC| 1 | |
-
-| GNSS_WAKE | 40 | |
-| GNSS_PPS | 41 | |
-| GNSS_RST | 42 | |
