@@ -20,6 +20,7 @@ permalink: esp32_t_display_st7789_1_14_inches
 
 The following libraries and version numbers are tested with this board:
 
+- Adafruit ST7735 & ST7789 by Adafruit, version 1.11.0, https://github.com/adafruit/Adafruit-ST7735-Library
 - TFT_eSPI by Bodmer, version 2.5.43, https://github.com/Bodmer/TFT_eSPI
 - LovyanGFX by Lovyan03, version 1.2.7, https://github.com/lovyan03/LovyanGFX
 
