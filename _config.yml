@@ -22,6 +22,8 @@ nav-menu:
   permalink: esp32
 - text: ESP32-S3
   permalink: esp32_s3
+- text: ESP32-C6
+  permalink: esp32_c6  
 - text: ESP32 Mini
   permalink: esp32_mini
 - text: Other
@@ -31,10 +33,10 @@ nav-menu:
 
 # use false to turn off any social media links
 twitter: false
-facebook: https://facebook.com/
-instagram: https://instagram.com/
+facebook: false
+instagram: false
 github: https://github.com/androidcrypto/
-linkedin: https://linkedin.com/
+linkedin: false
 medium: false
 google-scholar: false
 email: false
