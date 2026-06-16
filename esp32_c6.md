@@ -8,5 +8,5 @@ permalink: esp32_c6
 
 ## Boards without Display
 
-- [ESP32-C6 Muselab nanoESP32-C6)](esp32_c6_muselab_nanoesp32_c6.md) that comes with just an RGB LED
+- [ESP32-C6 Muselab nanoESP32-C6)](esp32_c6_muselab.md) that comes with just an RGB LED
   
